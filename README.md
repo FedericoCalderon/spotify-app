@@ -1,1 +1,4 @@
-# spotify-app
+
+
+yarn run cypress open
+

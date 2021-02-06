@@ -1,0 +1,112 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(100, 240, 100);
+    width: 100%;
+}
+.div_navbar {
+    margin-right: 10px;
+    padding: 0px;
+    width: 75%;
+}
+.form_navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.form_navbar button img {
+    width: 20px;
+}
+.form_navbar button {
+    background-color: rgb(199, 255, 199);
+    border: none;
+    margin: 0px;
+    padding: 5px 15px;
+}
+.form_navbar button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+    transform: translateY(-2px);
+}
+.form_navbar button:active {
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.7);
+    transform: translateY(2px);
+}
+.form_navbar button:focus {
+    outline: none;
+    text-decoration: none;
+}
+.form_navbar input {
+    font-size: 15px;
+    padding: 8px;
+    border: none;
+    background-color: white;
+    width: 80%;
+}
+.form_navbar input:hover {
+    border: solid 2px none;
+    background-color: rgb(240,255,240);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+}
+.form_navbar input:active {
+    text-decoration: none;
+}
+.form_navbar input:focus {
+    outline: none;
+}
+.a_navbar img {
+    width: 47px;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.div_icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+}
+
+.title_app {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: oblique;
+    color: black;
+}
+@media screen and (max-width: 700px) {
+    .div_icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .title_app {
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .div_navbar {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .form_navbar,.form_navbar input {
+        width: 100%;
+    }
+    .form_navbar button {
+        border: solid 1px grey;
+    }
+    .form_navbar button:hover {
+        border: solid 1px transparent;
+    }
+}
