@@ -4,7 +4,7 @@ export function paginationTool(array, param) {
     let limit = param;
     for (let i = 0; i < array.length ; i++) {
         customArray.push(array[i])
-        if (i + 1 ==  limit) {
+        if (i + 1 ===  limit) {
             outArray.push(customArray)
             customArray = []
             limit = limit + param

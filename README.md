@@ -8,8 +8,6 @@
 <p>CLIENT_SECRET = </p>
 <p>It is necessary that once the spotify API credentials are obtained, you have to copy and paste them in the .env file of the root location </p>
 <h3>Setting up</h3>
-<!-- <p>Clone this repository</p> -->
-<!-- <h5>Run the next commands to set up aplication</h5> -->
 <p>Clone this repository and run the next commands in root location </p>
 <ul>
     <li>yarn</li>
